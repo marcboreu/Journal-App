@@ -1,0 +1,10 @@
+
+
+  .journal__sidebar {
+        @include small {
+        width: 50vw;
+        }
+        @include medium {
+        width: 40vw;
+        }
+  }

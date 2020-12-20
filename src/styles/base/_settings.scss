@@ -7,3 +7,22 @@ $ligth-grey: #d8d8d8;
 $white: #fff;
 $google-blue: #4285f4;
 $button-active-blue: #1669f2;
+
+//Queries
+@mixin small {
+    @media only screen and (min-width: 600px) {
+      @content;
+    }
+  }
+  
+  @mixin medium {
+    @media only screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+  
+  @mixin large {
+    @media only screen and (min-width: 1440px) {
+      @content;
+    }
+  }
