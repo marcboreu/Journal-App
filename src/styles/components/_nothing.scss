@@ -8,8 +8,15 @@
     justify-content: center;
     height: 100vh;
 
+    .nothing__date {
+    justify-content: center;
+    display: flex;
+    margin: 1% 0 5% 0;
+    }
+
     p {
         text-align: center;
     }
 
 }
+

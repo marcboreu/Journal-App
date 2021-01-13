@@ -3,13 +3,26 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
+    flex-direction: column;
+    background-color:lighten($color: $dark-grey, $amount: 5);
 }
 
-div.loader__gif {
-    background-image: url(../../assets/loader.gif);
-    height: 100px;
-    width: 100px;
-    z-index: 100;
+.icon__container {
+    width: 100vw;
 }
-
+.icon__container > i {
+    display: flex;
+    justify-content: center;
+    color:lighten($color: $primary, $amount: 15);
+}
+.message__container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.message__container > span {
+    display: flex;
+    justify-content: center;
+    color:lighten($color: $primary, $amount: 15);
+}
